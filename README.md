@@ -1,11 +1,14 @@
 JQuery Mobile / RequireJS AMD Skeleton
 ===============
 
-## Features
-* Query parameters (e.g. #page-name?id=3) so that stateless, external links are possible.
-* Lazy-load of page scripts.  Don't load the script for #page2 until the user visits #page2
+----------
+[**Try It Out**](https://rawgithub.com/kevinknelson/mobile-skeleton/master/index.html)
 
-The most important aspects of this project are that it is an AMD approach to JQuery Mobile.  When you change pages, if that page has a data-script attribute, it will lazy load that script file on the first page load automatically.  This eliminates the need to load all of your scripts before you need them.  Using RequireJS for AMD allows us to, additionally, load up requirements for individual pages (e.g. a datetimepicker) only as needed.
+## Features
+* Query parameters (e.g. `#page-name?id=3`) so that stateless, external links are possible.
+* Lazy-load of page scripts.  Don't load the script for `#page2` until the user visits `#page2`
+
+The most important aspects of this project are that it is an AMD approach to `JQuery Mobile`.  When you change pages, if that page has a data-script attribute, it will lazy load that script file on the first page load automatically.  This eliminates the need to load all of your scripts before you need them.  Using `RequireJS` for AMD allows us to, additionally, load up requirements for individual pages (e.g. a datetimepicker) only as needed.
 
 This project combines the following into a usable starter-kit/skeleton by combining:
 
@@ -36,6 +39,7 @@ Other dependencies, such as verifying that when a person goes to a link that the
 * * *
 
 Author: Kevin K. Nelson [http://xingcreative.com](http://xingcreative.com/)
+
 * hopefully obvious, but just in case, I'm not claiming to have authored jQuery or RequireJS
 
 Copyright © 2013 Kevin K. Nelson | MIT license
